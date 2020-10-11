@@ -1,22 +1,22 @@
-$white:         #FFF;
-$red:           #E65C43;
-$gray:          #666;
-$graybar:       #F5F6F6;
-$footer:        #30353D;
-$body-background: url('../images/bg.gif');
-$body-font:       'Roboto', sans-serif;
-$logo:            url('../images/logo.png');
-$heading-colors: $red, $white, $gray;
-// $divs:(
-//     one: url('../images/social-media1.png') 0 0,
-//     two: url('../images/social-media2.png') -38px 0,
-//     three:url('../images/social-media3.png') -76px 0,
-//     four: url('../images/social-media4.png') -114px 0
-// );
+// screen dimensions
+$laptop: laptop;
+$tablet: tablet;
+$mobile: mobile;
+// background colors
+$greybar_background:#F5F6F6;
+$footer_background:#30353D;
 
-$divs:(
-    one: url('../images/social-media1.png'),
-    two: url('../images/social-media2.png'),
-    three:url('../images/social-media3.png'),
-    four: url('../images/social-media4.png')
-);
+// img urls
+$social_media_image:'../images/social-media.png';
+$background_image:'../images/bg.gif';
+
+// fonts
+$bodyfont: 'Roboto', sans-serif;
+$figure_logo:'../images/logo.png';
+
+// colors
+$link_color: #E65C43;
+$header_h1 : #E65C43;
+$header_white: #FFF;
+$header_grey: #666;
+$headline_red:#F25C43;
